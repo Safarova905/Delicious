@@ -1,8 +1,0 @@
-База данных службы доставки:
-1) User (id, username, created, phone, email, firstname, lastname, cardNum)
-2) Order (id, created, customerID, sum, statusID, deliveryservID)
-3) Dish (id, orderID, productID, counter)
-4) Status (id, name, numOrder, color)
-5) Logstatus (id, orderID, statusID, created, userID)
-6) Product (id, name, price)
-7) Delivery (id, name, numOrder) 
