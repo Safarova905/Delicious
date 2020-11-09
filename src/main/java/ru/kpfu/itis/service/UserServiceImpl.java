@@ -38,8 +38,4 @@ public class UserServiceImpl implements UserService {
         return userRepository.findById(id);
     }
 
-    @Override
-    public void update(User user) {
-        userRepository.update(user);
-    }
 }

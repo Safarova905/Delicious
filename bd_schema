@@ -1,0 +1,8 @@
+База данных службы доставки:
+1) User (id, first_name, last_name, address, username, password, email)
+2) Comment (id, product_id, date, text, commentcol)
+3) Delivery (order_id, delivery_date, delivery_status)
+4) Order (order_id, user_id, product_id, price, payment, ordercol)
+5) Product (product_id, name, description, image, product_price, reach, number, weight)
+6) Review (id, user_id, date, text)
+7) Delivery (id, name, numOrder) 

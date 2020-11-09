@@ -15,5 +15,4 @@ public interface UserService {
 
     User getUserById(Integer id);
 
-    void update(User user);
 }

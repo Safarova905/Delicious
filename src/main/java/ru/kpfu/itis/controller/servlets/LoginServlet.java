@@ -1,5 +1,6 @@
-package ru.kpfu.itis.servlets;
+package ru.kpfu.itis.controller.servlets;
 import ru.kpfu.itis.model.User;
+import ru.kpfu.itis.service.UserService;
 import ru.kpfu.itis.utilite.HashPassword;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,7 +14,7 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("views/login.jsp").forward(request, response);
+        request.getRequestDispatcher("frontend/login.jsp").forward(request, response);
     }
 
     @Override
